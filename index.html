@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/fonc.js" ></script>
+    <title>MonPortefolio</title>
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+
+<body>
+  
+
+    <div class="topnav">
+        <a href="#home" class="active">Logo</a>
+       <a>Frédéric PECHOUX</a>
+        <div id="myLinks">
+          <!--  <a activ href="#home">Accueil</a>-->
+            <a href="#Accueil">Accueil</a>
+            <a href="#news">A propos</a>
+            <a href="#contacts">Projets</a>
+            <a href="#about">Contacts</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+
+
+    
+    <div>
+    <br>
+    <img src="images/Mon_profil.png" alt="mon profit" class="portrait">
+    <br>
+    </div>  
+    
+    <main>
+        <div id="container">
+            
+            <section id="Edito">
+            <!--<div>
+                <h1>édito/citation/carrousel</h1>
+                <img src="images/photo_cascade.jpeg" width="474px" height="266px" class="glisseur">
+                <img src="images/photo_village.jpeg" width="474px" height="266px" class="glisseur">
+                <img src="images/photo_montagne.jpeg" width="474px" height="266px" class="glisseur">-->
+
+                 <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="images/photo_cascade.jpeg" alt="photo de cascade" style="width:100%">
+                <div class="text">Caption Text</div>
+                </div>
+            
+                <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="images/photo_village.jpeg" alt="photo de village" style="width:100%">
+                <div class="text">Caption Two</div>
+                </div>
+            
+                <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="images/photo_montagne.jpeg" alt="photo de montagne" style="width:100%">
+                <div class="text">Caption Three</div>
+                </div>
+            
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div> 
+            </section>
+            
+            <h1>Projet</h1>
+            <section id="travail">
+
+                <div class="projet">
+                    <h3>Projet 1</h3>
+                </div>
+                <div class="projet">
+                    <h3>Projet 2</h3>
+                </div>
+                <div class="projet">
+                    <h3>Projet 3</h3>
+                </div>
+                <div class="projet">
+                    <h3>Projet 4</h3>
+                </div>
+                <div class="projet">
+                    <h3>Projet 5</h3>
+                </div>
+                <div class="projet">
+                    <h3>Projet 6</h3>
+                </div>
+            </section>
+            
+                <h1>Mes contacts</h1>
+                <div class="container">
+                    <form action="action_page.php">
+                  
+                      <label for="fname">Nom</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Votre Nom..">
+                  
+                      <label for="lname">Prénom</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Votre Prénom..">
+
+                  
+                     
+                      <label for="subject">Sujet</label>
+                      <textarea id="subject" name="subject" placeholder="écrivez quelque chose.." style="height:200px"></textarea>
+                  
+                      <input type="submit" value="SOUMETTRE">
+                  
+                    </form>
+                </div> 
+        </div><!--modif-->
+
+    </main>
+    <h2> Footer</h2>
+    <footer>
+        <div class="feet"><a href="https://fr-fr.facebook.com/facebook/"><img src="images/logo_facebook.png" alt="logo de facebook" height="50px" width="50px"></a></div>     
+        <div class="feet"><a href="https://twitter.com/"><img src="images/logo_twitter.png" alt="logo de Twitter" height="50px" width="50px"></a></div>
+        <div class="feet"><a href="https://www.linkedin.com/"><img src="images/logo_linkedin.png" alt="logo de LinkedIn" height="50px" width="50px"></a></div>
+    </footer>
+</body>
+
+</html>
