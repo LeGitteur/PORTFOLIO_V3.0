@@ -1,3 +1,24 @@
+
+
+/*font-face*/
+@font-face
+{
+    font-family: "B612Mono-Bold";
+    src: url('../fonts/B612_Mono/B612Mono-Bold.ttf') format('truetype'),
+         url('../fonts/B612_Mono/B612Mono-BoldItalic') format('truetype'),
+         url('../fonts/B612_Mono/B612Mono-Italic.ttf') format('truetype'),
+         url('../fonts/B612_Mono/B612Mono-Regular.ttf') format('truetype');
+    }
+
+@font-face {
+    font-family: 'Dekko';
+    src: url('../fonts/Dekko/Dekko-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Agbalumo';
+  src: url('../fonts/Agbalumo/Agbalumo-Regular.ttf') format('truetype');
+}
 /* ------------------------------Introduire un fond d'écran pour le site*-----------------------------------------/
 /* Add a black background color to the top navigation */
 .topnav {
@@ -143,6 +164,8 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+
+
 /*--------------------------fin Mon slider------------------------------*/
 
 
@@ -242,17 +265,7 @@ input[type=submit]:hover {
     justify-content: space-around;
     width: 33%;
     float: left;
-    
 
-     
- /*   margin-left: auto;
-    margin-right: auto;
-    width: 5px;
-    height: 5px; 
-    justify-content: center;
-    flex-wrap : wrap;  
-    border-color: blue; 
-    border-width: 1px;
-    */
 }
+
 /*-----------------fin du Footer --------------------*/
