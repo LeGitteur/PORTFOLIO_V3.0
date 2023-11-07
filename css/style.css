@@ -167,7 +167,11 @@
 
 
 /*--------------------------fin Mon slider------------------------------*/
-
+h1{
+  font-family: Dekko ;
+  font: arial;
+ 
+}
 
 body {
 
@@ -236,7 +240,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #b39915;
   color: rgb(253, 248, 248);
   padding: 12px 20px;
   border: none;
@@ -246,13 +250,13 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #1a92b3;
 }
 
 /* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
-  background-color: #925d1d;
+  background-color: #a64f23;
   padding: 20px;
 } 
 
