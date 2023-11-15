@@ -10,10 +10,6 @@
          url('../fonts/B612_Mono/B612Mono-Regular.ttf') format('truetype');
     }
 
-@font-face {
-    font-family: 'Dekko';
-    src: url('../fonts/Dekko/Dekko-Regular.ttf') format('truetype');
-}
 
 @font-face {
   font-family: 'Agbalumo';
@@ -168,11 +164,23 @@
 
 /*--------------------------fin Mon slider------------------------------*/
 h1{
-  font-family: Dekko ;
+  font-family: 'B612Mono-Bold', sans-serif ;
   font: arial;
+  
  
 }
 
+h2{
+  font-family: 'Dekko', sans-serif ;
+  font: 'B612Mono-Regular';
+ 
+}
+
+h3{
+  font-family: 'Dekko', sans-serif ;
+  font: time new roman;
+ 
+}
 body {
 
     width: 100%;

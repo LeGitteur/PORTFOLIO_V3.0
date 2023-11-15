@@ -1,11 +1,3 @@
-function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  } 
 
 // Slide show//
 let slideIndex = 1;
@@ -36,3 +28,21 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }  
+
+// début flipper la carte du site web//
+function changeClass(){
+  var elements = document.querySelectorAll("div[class^='card']");
+  for (var i = 0; i < elements.length; i++) {
+      if (elements[i].className == "card-single") {
+      elements[i].className += " rotated";
+      }
+      else if (elements[i].className == "card-group") {
+      elements[i].className += " rotated";
+      }
+      else {
+          elements[i].className = "card-single";
+      }
+      }
+}
+
+// fin flipper la carte du site web//
