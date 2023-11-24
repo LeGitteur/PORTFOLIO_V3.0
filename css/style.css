@@ -32,34 +32,34 @@
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    float: left;
-    color: #f2f2f2;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-   /* display: block;*/
+  float: left;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+ /* display: block;*/
 }
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  /*  background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;*/
-    float:right;
-  }
+/*  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;*/
+  float:right;
+}
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #74d581;
-    color: black;
+  background-color: #74d581;
+  color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #4ea485;
-    color: white;
+  background-color: #4ea485;
+  color: white;
 }
 /*----------------------------- Introduire un fond d'écran pour le site*------------------------------------------/
 
