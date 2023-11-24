@@ -17,18 +17,19 @@
 }
 /* ------------------------------Introduire un fond d'écran pour le site*-----------------------------------------/
 /* Add a black background color to the top navigation */
+/* Add a black background color to the top navigation */
 .topnav {
-    background-color: #2c2626;
-    overflow: hidden;
-    position: relative;/**/
+  background-color: #2c2626;
+  overflow: hidden;
+  position: relative;/**/
 }
 
 
 
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
-    display: none;
-  }
+  display: none;
+}
 
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -42,11 +43,11 @@
 
 /* Style the hamburger menu */
 .topnav a.icon {
-/*  background: black;
+  background: black;
   display: block;
   position: absolute;
   right: 0;
-  top: 0;*/
+  top: 0;
   float:right;
 }
 
@@ -57,10 +58,11 @@
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
+.active {
   background-color: #4ea485;
   color: white;
 }
+
 /*----------------------------- Introduire un fond d'écran pour le site*------------------------------------------/
 
 
@@ -72,7 +74,6 @@
     margin-left: 50%;
 }
 /* ............. fin de  MENU ............. */
-
 
 /*--------------------------Mon slider------------------------------*/
 * {box-sizing:border-box}
