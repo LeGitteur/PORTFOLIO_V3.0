@@ -178,7 +178,7 @@ h2{
 
 h3{
   font-family: 'Dekko', sans-serif ;
-  font: time new roman;
+  
  
 }
 body {
@@ -267,6 +267,8 @@ input[type=submit]:hover {
   background-color: #a64f23;
   padding: 20px;
 } 
+
+
 
 /*-----------------fin du *** Formulaire --------------------*/
 
