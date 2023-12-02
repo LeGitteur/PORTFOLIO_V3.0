@@ -199,7 +199,6 @@ body {
 
 #travail {
     display: flex;
-    background: pink;
     justify-content: center;
     flex-wrap: wrap;
     padding: 10px;
@@ -234,6 +233,16 @@ body {
     }
 }
 
+/*---------------------Flip box--------------------------*/
+.font-face{
+  background-color:#74d581;
+  display:inline;
+}
+
+.back-face{
+  background-color:lemonchiffon;
+}
+
 
 /*-----------------Le *** Formulaire --------------------*/
 input[type=text], select, textarea {
@@ -265,7 +274,7 @@ input[type=submit]:hover {
 /* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
-  background-color: #a64f23;
+  
   padding: 20px;
 } 
 
