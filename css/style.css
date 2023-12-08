@@ -279,7 +279,12 @@ input[type=submit]:hover {
 } 
 
 
-
+/**
+* Commencez par masquer toutes les cases à cocher
+*/
+input[type="checkbox"] {
+  visibility: hidden;
+}
 /*-----------------fin du *** Formulaire --------------------*/
 
 /*-----------------Footer --------------------*/
