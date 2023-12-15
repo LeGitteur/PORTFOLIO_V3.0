@@ -17,9 +17,9 @@
 }
 /* ------------------------------Introduire un fond d'écran pour le site*-----------------------------------------/
 /* Add a black background color to the top navigation */
-/* Add a black background color to the top navigation */
+
 .topnav {
-  background-color: #2c2626;  /* fond d'écran noir*/
+  background-color: #2c2626;  /* fond du bandeau de navigation*/
   overflow: hidden; /*la police du bandeau n'est pas surlignée*/
   position: relative;/**/
 }
@@ -38,7 +38,7 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
- /* display: block;*/
+
 }
 
 /* Style the hamburger menu */
@@ -63,7 +63,7 @@
   color: white;
 }
 
-/*----------------------------- Introduire un fond d'écran pour le site*------------------------------------------/
+/*----------------------------- Introduire un fond d'écran pour le site------------------------------------------*/
 
 
 /* ............. LE MENU ............. */
@@ -144,7 +144,7 @@
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-  transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease;  
 }
 
 .active, .dot:hover {
@@ -158,12 +158,13 @@
 }
 
 @keyframes fade {
-  from {opacity: .4}
+  from {opacity: .4} /*degré d'opacité */
   to {opacity: 1}
 }
 
 
 /*--------------------------fin Mon slider------------------------------*/
+/*--------------------------espace titre------------------------------*/
 h1{
   font-family: 'B612Mono-Bold', sans-serif ;
   font: arial;
@@ -179,7 +180,7 @@ h2{
 
 h3{
   font-family: 'Dekko', sans-serif ;
-  
+/*-------------------------- fin espace titre------------------------------*/  
  
 }
 body {
@@ -187,7 +188,7 @@ body {
     width: 100%;
     margin: auto;
     background-color: #85FFBD;
-    background-image: linear-gradient(45deg, #85FFBD 0%, #ffd77d 78%);
+    background-image: linear-gradient(45deg, #85FFBD 0%, #ffd77d 78%); /*couleur du fond de la page */
 
 }
 
@@ -200,16 +201,16 @@ body {
 #travail {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap;               /*rabattement pour le point responsive*/
     padding: 10px;
 }
 
 .projet {
-    background: #74d581;
-    width: 300px;
-    height: 200px;
-    margin: 5px;
-    border-radius: 10px;
+    background: #74d581;  /*couleur des blocs projet*/ 
+    width: 300px;     /*largeur des blocs projet*/
+    height: 200px;   /*hauteur des blocs projet*/
+    margin: 5px;     /*marge de text */
+    border-radius: 10px; /*courbure des blocs projet*/
 }
 
 .portrait {
@@ -304,7 +305,7 @@ input[type="checkbox"] {
 
 
 .checkbox-group input[type="checkbox"] {
-  margin-right: 10px; /* Espacement à droite de la caseà cocher */
+  margin-right: 10px; /* Espacement à droite de la case à cocher */
 }
 /*-----------------fin du *** Formulaire --------------------*/
 
